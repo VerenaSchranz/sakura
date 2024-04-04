@@ -5,8 +5,13 @@ import { CommonModule } from '@angular/common';
     selector: 'app-landPage',
     standalone: true,
     imports: [CommonModule],
-    template: '<h1>Hallo Welt</h1>',
-    styles: ['h1 {color: red}']
+    template: `
+    <section>
+        <h1 class="fontRaleway">SAKURA RAMEN</h1>
+        <h2 class="fontRaleway">BEST RAMEN IN TOWN</h2>
+    </section>
+    `,
+    styleUrls: ['./landingPage.component.scss']
 })
 
 export class LandingPageComponent {}
