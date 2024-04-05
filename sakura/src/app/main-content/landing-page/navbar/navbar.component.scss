@@ -1,0 +1,27 @@
+.nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  &-logo {
+    width: 50%;
+  }
+  &-links {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    width: 50%;
+  }
+  a {   
+    text-decoration: none;
+    color: white;
+    display: flex;
+    gap: 30px;
+  }
+  &-phone_btn {
+    background-color: red;
+    border: 1px solid white;
+
+  }
+}

@@ -1,0 +1,35 @@
+h1 {
+    color: white;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+    background-image: url('./../../../assets/img/hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // flex-direction: column;
+    >img {
+        width: 64px;
+        height: 64px;
+    }
+
+    >div {
+        >a {
+            &:hover{
+                color: red;
+            }
+        }
+    }
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+/* .phone_btn {
+
+} */
