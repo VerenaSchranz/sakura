@@ -13,7 +13,7 @@ import { ImprintComponent } from './imprint/imprint.component';
     RouterOutlet,
     MainContentComponent,
     FooterComponent,
-    ImprintComponent
+    ImprintComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
